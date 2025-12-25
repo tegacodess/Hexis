@@ -1,0 +1,4 @@
+# For testing:
+pytest
+# For production password hashing consider:
+# bcrypt
