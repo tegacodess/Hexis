@@ -47,17 +47,10 @@ habit-tracker/
 
 The codebase is intentionally split into different logical modules for better  readability, maintainability, and scalability.
 
-## Database Design
-Hexis uses and SQLite Database to store the users, their respective habits, and the habit completion records. 
-Dataes are stored as ISO formatted strigs (YYYY-MM-DD) rather than timestamps.
-
-## Data Handling
-
-All dates are stored and processed as **ISO 8601 date strings (`YYYY-MM-DD`)** because it prevents deprecated timestamp behavior in newer Python versions, it ensures deterministic and testable time-series data, and allows for better portability and database compatibility
-
-Internally, ISO strings are converted to `datetime.date` objects only when required for calculations.
-
-
+## Requirements
+* Python 3.9+
+* Git
+* Virtual environment tool (venv or virtualenv)
 
 ## Analytics Module & Logic
 
@@ -68,7 +61,7 @@ The analytics module provides:
 * Monthly streak calculation
 * Streak validation using **4 weeks of predefined habit data**
 
-Streak calculations strictly follow habits periodicity. A daily habit requires consecutive daily completions, while a weekly habit requires one completion per week (consecutive 7-day intervals).
+Streak calculations strictly follow habits' periodicity. A daily habit requires consecutive daily completions, while a weekly habit requires one completion per week (consecutive 7-day intervals).
 
 
 
