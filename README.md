@@ -118,16 +118,19 @@ python -m habit.app
 ## Screenshots
 ![Successful Execution of tests](image.png)
 
+## How to Use Hexis
+1. Run the application in the virtual environment that was previously created. 
+```bash
+python -m habit.app
+```
 
-## Development Notes
+2. Register or Login using your crdentials.
+![Registering New User](image-1.png)
 
-* Follows standard Python naming conventions (PEP 8)
-* Uses `.gitignore` to exclude unnecessary files such as `__pycache__`
-* Designed for clarity and educational evaluation
-* Comments were added where needed 
+3. Create a Habit, inputing a title, a description, and preferred frequency.
+![New Habit](image-2.png)
+
+4. Analyze habit and see progress
 
 
 
-## Author
-
-The project was developed as part of an academic portfolio project to demonstrate Python engineering principles, modular design, and unit testing best practices, to meet the requirements for the final portfolio submission. 

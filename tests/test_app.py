@@ -2,7 +2,7 @@ from datetime import date
 
 def test_register_create_and_complete(tracker):
     # Using the tracker fixture which provides isolated DB
-    uid = tracker.register_user("testuser", "t@example.com", "pass")
+    uid = tracker.register_user("testuser", "t@example.com", "password")
     assert uid is not None
 
     hid = tracker.create_habit(uid, "Test", "desc", "Daily")
