@@ -116,7 +116,7 @@ python -m habit.app
 ```
 
 ## Screenshots
-![Successful Execution of tests](image.png)
+![Successful Execution of tests](/screenshots/image.png)
 
 ## How to Use Hexis
 1. Run the application in the virtual environment that was previously created. 
@@ -125,10 +125,10 @@ python -m habit.app
 ```
 
 2. Register or Login using your crdentials.
-![Registering New User](image-1.png)
+![Registering New User](/screenshots/image-1.png)
 
 3. Create a Habit, inputing a title, a description, and preferred frequency.
-![New Habit](image-2.png)
+![New Habit](/screenshots/image-2.png)
 
 4. Analyze habit and see progress
 
